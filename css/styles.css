@@ -1,5 +1,6 @@
 .head {
     color: white;
+    background-color: maroon;
     text-transform: capitalize;
     text-align: center;
 }
@@ -29,25 +30,18 @@ img {
           color: yellow;
 
       }
-.images {
-    float: left;
-}
 
-.image {
-  overflow: auto;
-}
+      .sidebar {
+        width: 30%;
+        height: 10%;
+        float: right;
+        background-color: lightblue
+        margin: 12px;
+        border: 2px black;
+        padding: 4px;
+        margin: 2px;
+        border: 2px solid red;
+        padding: 10px;
+        background-color: lightblue;
 
-.sidebar {
-  text-align: left;;
-  background-color: lightblue;
-  font-size: 14px;
-  font-style: italic;
-  color: black;
-  padding-left: 600px;
-  padding-top: 30px;
-  padding-bottom: -50px;
-
-
-
-
-}
+      }
